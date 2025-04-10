@@ -19,11 +19,14 @@ function sbttn(){
 
 function displaylist() {
     aside_ul_text.innerHTML = '';
+    aside_ul_text.style.textDecoration = "dotted";
     for(let i = 0; i < list.length; i++){
         let li = document.createElement('li');
         li.innerHTML = list[i];
         aside_ul_text.appendChild(li);  
+        li.style.textDecoration = "none";
     }
+
 
 }
 
