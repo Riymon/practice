@@ -64,11 +64,8 @@ footer{
 #s-bttn1{
     color: black;
 }
-footer{
-    display: flex;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
+#a-ultext1{
+    list-style-type:none;
 }
 #f-bttn{
     margin-left: 50vh;
