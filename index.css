@@ -1,0 +1,77 @@
+
+*{
+    color: white;
+    font-size: 4vh;
+}
+header{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 200vh;
+    height: 3vh;
+    background-color: black;
+    margin: 0vh 3vh 0vh 3vh;
+}
+nav{
+    width: 200h;
+    background-color: aqua;
+    height: 4vh;
+    margin: 0vh 3vh 0vh 3vh;
+}
+body{
+    background-color: black;
+}
+.parent-cont {
+    margin-top: 3vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* background-color: rgb(235, 152, 0); */
+    width: auto;
+    height: 50vh;
+    margin: 0vh 3vh 0vh 3vh;
+}
+.container{
+    text-align: center  ;
+}
+section{
+    width: 120vh;
+    height: 20vh;
+    background-color: rgb(235, 152, 0);
+}
+article{
+    width: 120vh;
+    height: 20vh;
+    background-color: rgb(235, 152, 0);
+}
+aside{
+    margin-top: 2vh;
+    text-align: center;
+    width: 75vh;
+    height: 45vh;
+    background-color: rgb(235, 152, 0);
+    margin-left: 2vh;
+}
+footer{
+    display: flex;
+    justify-items: center;
+    width: 200vh;
+    height: 30vh;
+    text-align: center;
+    background-color: rgb(235, 152, 0);
+    margin: 2vh 3vh 0vh 3vh;
+}
+#s-bttn1{
+    color: black;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+#f-bttn{
+    margin-left: 50vh;
+    color: black;
+    margin-right: 5vh;
+}
