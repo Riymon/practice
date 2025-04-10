@@ -36,4 +36,8 @@ function fbutton(){
 
     count_tag.innerHTML = count;
 
+    let h1 = document.createElement('h1');
+    h1.textContent = "Count: " + count;
+    count_tag.appendChild(h1);
+
 }
